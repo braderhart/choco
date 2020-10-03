@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>mupdf</id>
+    <version>1.17.0</version>
+    <packageSourceUrl>https://github.com/braderhart/choco/tree/master/auto/mupdf</packageSourceUrl>
+    <owners>braderhart</owners>
+    <title>MuPDF</title>
+    <authors>Artifex Software</authors>
+    <projectUrl>https://mupdf.com</projectUrl>
+    <iconUrl>https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/MuPDF.svg/128px-MuPDF.svg.png</iconUrl>
+    <copyright>2006-2020 Artifex Software, Inc.</copyright>
+    <licenseUrl>https://mupdf.com/license</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://git.ghostscript.com/?p=mupdf.git</projectSourceUrl>
+    <docsUrl>https://mupdf.com/docs</docsUrl>
+    <bugTrackerUrl>https://bugs.ghostscript.com</bugTrackerUrl>
+    <tags>mupdf pdf reader viewer admin</tags>
+    <summary>MuPDF is a lightweight PDF, XPS, and E-book viewer.</summary>
+    <description>MuPDF is a lightweight open source software framework for viewing and converting PDF, XPS, and E-book documents.</description>
+    <releaseNotes>https://mupdf.com/release_history</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <file src="legal\**" target="legal" />
+  </files>
+</package>
