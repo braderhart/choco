@@ -10,7 +10,7 @@ You can use one of the following methods to obtain the checksum:
 1. Use powershell function 'Get-Filehash'
 2. Use chocolatey utility 'checksum.exe'
 
-checksum32: 35E69030E721185F8E4471FE8C7572D912FCF56671CE83FBAC5709D55FB7C962
+checksum32: F3DF8C09FAC1018D6C57C20B9CC09EA89B2E19A434378ABE57CE8EDE3A76D01A
 
 ## License
 File 'LICENSE.txt' is obtained from:
